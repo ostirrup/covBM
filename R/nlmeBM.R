@@ -44,7 +44,7 @@ function(model,
 		attr(nlme_fit$modelStruct$corStruct, "sigma") <-	nlme_fit$sigma
 		}
 		
-	if(!is.character(nlme_fit$apVar)){nme_fit$apVar<-refactor_apVar(nlme_fit$apVar, class(nlme_fit$modelStruct$corStruct)[1])}
+	if(!is.character(nlme_fit$apVar)){nlme_fit$apVar<-refactor_apVar(nlme_fit$apVar, class(nlme_fit$modelStruct$corStruct)[1])}
 
 	nlme_fit$call<-origCall
 

@@ -1,5 +1,5 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
-^cran-comments  #comments to CRAN
-^.gitignore
-^.travis.yml
+^cran-comments$
+^.gitignore$
+^.travis.yml$
