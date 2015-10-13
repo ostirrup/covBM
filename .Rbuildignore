@@ -2,3 +2,4 @@
 ^\.Rproj\.user$
 ^cran-comments
 ^.gitignore
+^.travis.yml
