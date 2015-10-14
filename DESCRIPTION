@@ -8,6 +8,7 @@ Description: Allows Brownian motion, fractional Brownian motion,
     be added to linear and non-linear mixed effects models
     using the structures and methods of the 'nlme' package.
 Depends: nlme (>= 3.0)
+Imports: stats
 License: GPL-3
 NeedsCompilation: yes
 LazyData: true
