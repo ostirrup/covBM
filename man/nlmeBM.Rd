@@ -35,7 +35,7 @@ a continuous variable.}
 An object of class "nlme" and inheriting from class "lme" representing the non-linear mixed effects model fit.
 }
 \description{
-This function is a wrapper for \code{\link[nlme]{lme}} that allows
+This function is a wrapper for \code{\link[nlme]{nlme.formula}} that allows
 Brownian motion, fractional Brownian motion or integrated Ornstein-Uhlenbeck
 components to be included in non-linear mixed models, with related parameter
 estimates and confidence intervals returned in their natural parameterisation.
